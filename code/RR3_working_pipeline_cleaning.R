@@ -436,8 +436,8 @@ rr3_transposed_xic_water <- exudate_table_wdf%>%
   dplyr::mutate(Experiment = case_when(Experiment == "D" ~ "dorcierr",
                                        Experiment == "M" ~ "mordor",
                                        Experiment == "R" ~ "RR3",
-                                       TRUE ~ as.character(Experiment)))%>%
-  dplyr::mutate(Organism = case_when(Organism == "CC" ~ "CCA",
+                                       TRUE ~ as.character(Experiment)),
+                Organism = case_when(Organism == "CC" ~ "CCA",
                                      Organism == "DT" ~ "Dictyota",
                                      Organism == "PL" ~ "Porites lobata",
                                      Organism == "PV" ~ "Pocillopora verrucosa",
