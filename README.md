@@ -1,4 +1,5 @@
 # Distinguishing the molecular diversity and energetic potential of coral and algal exometabolomes
+[![DOI](https://zenodo.org/badge/226176710.svg)](https://zenodo.org/badge/latestdoi/226176710)
 
 ### Authors: Haas, Wegley Kelly, Nelson et al., 2020
 
