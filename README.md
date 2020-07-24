@@ -1,4 +1,4 @@
-# RR3
+# Distinguishing the molecular diversity and energetic potential of coral and algal exometabolomes
 
 ### Authors: Haas, Wegley Kelly, Nelson et al., 2020
 
