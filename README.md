@@ -1,7 +1,7 @@
 # Distinguishing the molecular diversity and energetic potential of coral and algal exometabolomes
 [![DOI](https://zenodo.org/badge/226176710.svg)](https://zenodo.org/badge/latestdoi/226176710)
 
-### Authors: Andreas F. Haas1*, Linda Wegley Kelly2,3*, Daniel Petras3,4, Irina Koester3, Zachary Quinlan2,3, Milou Arts1, Jacqueline Comstock5, Brandie White2, Ellen C Hopmans1, Fleur van Duyl1, Craig A Carlson5, Lihini Aluwihare3, Pieter Dorrestein4 and Craig E. Nelson6*
+### Authors: Andreas F. Haas*, Linda Wegley Kelly*, Daniel Petras, Irina Koester, Zachary Quinlan, Milou Arts, Jacqueline Comstock, Brandie White, Ellen C Hopmans, Fleur van Duyl, Craig A Carlson, Lihini Aluwihare, Pieter Dorrestein and Craig E. Nelson*
 
 ### Journal: 
 ### Link: 
