@@ -69,7 +69,9 @@ networking_elements[is.na(networking_elements)] <- 0
 networking_energy <- networking_elements%>%
   dplyr::select(c(1, 'C', 'H', 'N', 'O', 'P', 'S'))%>%
   add_column(NOSC = (-((4*.$C + .$H - 3*.$N - 2*.$O + 5*.$P - 2*.$S)/.$C)+4))%>%
-  filter(NOSC >-4 & NOSC < 4)
+  mutate(NOSC = case_when(NOSC <= -4 ~ NA_real_,
+                          NOSC >= 4 ~ NA_real_,
+                          TRUE ~ as.numeric(NOSC)))
 
 # CLEANING -- Canopus---------------------------
 
