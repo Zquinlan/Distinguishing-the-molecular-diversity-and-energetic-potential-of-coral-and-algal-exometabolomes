@@ -171,9 +171,8 @@ ions$mean_samples <- apply(ions[ions_samples], 1, mean)
 # The non background features are saved into a vector so that they can be filtered from the master database
 # mean(samples)*0.5 > max_blanks
 no_background <-ions%>%
-  mutate(mean_samples = case_when(mean_samples*0.5 > max_blanks ~ "real",
-                                  TRUE ~ "background"))%>%
-  rename("background" = "mean_samples")
+  mutate(background = case_when(mean_samples*0.5 > max_blanks ~ "real",
+                                  TRUE ~ "background"))
 
 # TRANSIENT FEATURES -- flagging and removing ---------------------------------------------
 # Transient features are defined as features who's area under the curve is not more than 2E5 in at least 3 samples
